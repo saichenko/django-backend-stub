@@ -1,0 +1,13 @@
+Django==3.1.4
+psycopg2-binary==2.8.6 # работа с базой данных postgres
+
+dj-database-url==0.5.0 # передача настроек БД из env окружения
+gunicorn==20.0.4 # http сервер, который свзявает nginx с django приложением
+
+ipdb==0.13.4 # отладка программ
+ipython==7.19.0 # приятная работа в shell
+django-debug-toolbar==3.2 # панель для отладки запросов в бд
+
+Pillow==8.0.1 # для работы с изображениями
+djangorestframework==3.12.2 # API
+django-url-filter==0.3.15 # улучшенные фильтры для DRF
